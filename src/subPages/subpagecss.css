@@ -1,0 +1,90 @@
+.subPageOne{
+    height: 60vh;
+}
+.DeliveringHeadResponsive{
+    display: none;
+}
+
+.DeliveringHead {
+    font-family: "Crimson Text", serif;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: bolder;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    padding-left: 5rem;
+}
+.DhNextLine{
+    margin-top: -1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.DHDescription{
+    font-family: "Outfit", serif;
+    font-size: 1.3rem;
+    font-style: normal;
+    color: black;
+    margin-right: 6rem;
+}
+.DHemptySpace{
+    width:140rem;
+}
+.serviceHead{
+    font-family: "Crimson Text", serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.ServiceDescription{
+    font-family: "Outfit", serif;
+    font-size: 1.3rem;
+}
+.viewMore{
+    font-size: 1.3rem;
+    color: blue;
+
+}
+.SubpageSecond{
+    height: 50vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .subPageOne{
+        margin-top: 1.5rem;
+    }
+    
+    .DeliveringHeadResponsive{
+        display: flex;
+        font-family: "Crimson Text", serif;
+        font-style: normal;
+        font-weight: bold;
+        color: black;
+        font-size: 1.5rem;
+        padding: 1.5rem;
+        
+     
+    }
+    .DeliveringHead{
+        display: none;
+    }
+    .DhNextLine{
+        display: none;
+    }
+    .DHDescription{
+        font-size: 1rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        
+    }
+    .DHemptySpace{
+        display: none;
+    }
+    .subPageOne{
+        height: 40vh;
+    }
+    .SubpageSecond{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+ 
+   }

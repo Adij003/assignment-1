@@ -1,0 +1,31 @@
+.NewTextNavOne {
+    font-family: "Crimson Text", serif;
+    font-style: normal;
+    color: white;
+}
+.LessBorder{
+    border-top: 0.5px solid rgba(255, 255, 255, 0.28);
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.28);
+}
+.ResNavBar{
+    display: none;
+}
+.Logo{
+    font-family: "Outfit", serif;
+    font-size: 2rem;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+   .NavbarOne{
+    display: none;
+   }
+   .NavbarTwo{
+    display: none;
+   }
+   .ResNavBar{
+    display: flex;
+    justify-content: center;
+   }
+
+  }
