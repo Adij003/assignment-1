@@ -290,7 +290,8 @@
    }
    .FooterDescription{
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-weight: 300;
    }
    .FooterSocialLinks{
     margin-top: 1rem;
