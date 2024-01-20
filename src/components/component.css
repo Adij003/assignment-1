@@ -15,6 +15,16 @@
     font-size: 2rem;
     color: white;
 }
+.CardHeading{
+    font-family: "Crimson Text", serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.DescriptionCard{
+    font-family: "Outfit", serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
 
 @media only screen and (max-width: 600px) {
    .NavbarOne{
@@ -26,6 +36,10 @@
    .ResNavBar{
     display: flex;
     justify-content: center;
+   }    
+   .MainCard{
+    width: 22rem;
    }
+  
 
   }

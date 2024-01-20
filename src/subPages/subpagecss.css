@@ -46,6 +46,56 @@
 .SubpageSecond{
     height: 50vh;
 }
+.SubpageThree{
+    height: 50vh;
+
+} 
+.ServiceTwoImgRes{
+    display: none;
+}
+
+.PicSetOne {
+    position: relative;
+  }
+  .buildingImgOne{
+    position: absolute;
+    left: 9rem;
+    top: 8rem;
+  }
+  .PicSetTwo {
+    position: relative;
+  }
+  .buildingImgTwo{
+    position: absolute;
+    right: 9rem;
+    top: 8rem;
+  }
+  .WhoAreWe{
+    font-family: "Crimson Text", serif;
+    font-size: 3.5rem;
+    color: white;
+  }
+  .MiddleText{
+    font-family: "Outfit", serif;
+    font-size: 1rem;
+    color: white;
+  }
+  .DiscoverMoreButton {
+   
+    padding: 10px 20px; 
+    background-color: #fff; 
+    display: inline-block; 
+    color: blue;
+  }
+  .ImagesRes{
+    display: none;
+  }
+  .OtherTwoImg{
+    display: none;
+  }
+  .FooterNewsLetterRes{
+    display: none;
+  }
 
 @media only screen and (max-width: 600px) {
     .subPageOne{
@@ -83,8 +133,184 @@
     }
     .SubpageSecond{
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        height: 90vh;
+        flex-direction: column;
+        
+        /* flex-wrap: wrap; */
     }
- 
+    .ServiceOneBoxOne{
+        width: 100%;
+        margin: 0;
+        padding-left: 1.5rem;
+    }
+    .ServiceDescription{
+        font-size: 1rem;
+    }
+    .ServiceOneImg{
+        margin: auto;
+        width: 90%;
+        height: 25rem;
+    }
+    .ServiceTwoImg{
+        display: none;
+    }
+  
+
+    .serviceHead{
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+    .SubpageThree{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .servicetwoBoxOne{
+        width: 100%;
+        margin: 0;
+        padding-left: 1.5rem;
+    }
+    .ServiceTwoImgRes{
+        display: flex;
+    }
+    .SubPageCardBox{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .SubPageCardBox{
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .PicSetOne{
+        display: none;
+    }
+    .PicSetTwo{
+        display: none;
+    }
+    
+   
+    .BlueBox{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        height: auto;
+    }
+    .ImagesRes{
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        
+    
+    }
+    .OtherTwoImg{
+        display: flex;
+        padding: 0 2rem;
+    }
+    .MiddleText{
+        width: 100%;
+        margin-top: -5rem;
+        padding: 1.5rem;
+    }
+    .WhoAreWe{
+        font-size: 2rem;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        font-weight: bold;
+        text-align: center;
+    }
+    .MiddleDescription{
+        margin-top: 1.5rem;
+        width: 100%;
+        font-size: 0.9rem;
+        padding: 0;
+        
+    }
+    .DiscoverMoreButton{
+        margin-top: 1.5rem;
+        padding: 15px 50px; 
+    }
+    .ResImgOne{
+        width: 6rem;
+        position: relative;
+        bottom: 4rem;
+        /* position: relative;
+        left: 1rem;
+        bottom: 5rem; */
+    }
+    .ResImgTwo{
+        width: 6rem;
+        position: relative;
+        bottom: 4rem;
+        /* position: relative;
+        right: 1rem;
+        bottom: 14rem; */
+    }
+    .FooterMain{
+        padding: 1.5rem;
+    }
+    .FooterPartOne{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .FooterNewsLetter{
+        display: none;
+    }
+    .FooterNewsLetterRes{
+        display: flex;
+        flex-direction: column;
+        font-family: "Crimson Text", serif;
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    .MailText{
+        display: flex;
+        flex-direction: column;
+    }
+    .MailField{
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    .Subscribe{
+        margin: 0;
+    }
+.DividingLine{
+    margin: 2rem 0 0 0;
+    
+}
+   .FooterPartTwo{
+    
+    flex-direction: column;
+   }
+   .FooterLogo{
+    font-size: 2rem;
+   }
+   .FooterDescription{
+    width: 100%;
+    font-size: 1.2rem;
+   }
+   .FooterSocialLinks{
+    margin-top: 1rem;
+   }
+  .FooterLinks{
+    width: 100%;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+  .CodeOfConduct{
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  .FooterPartThree{
+    flex-direction: column;
+    text-align: center;
+  }
+  .TermsOfService{
+    width: 100%;
+    margin: 2rem 0 1rem 0;
+  }
+   
    }

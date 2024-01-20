@@ -4,11 +4,11 @@ import imgOne from '../assets/amy.png';
 function SubPageThree() {
   return (
     
-         <div className='SubpageSecond flex flex-row w-full bg-gray-100'>
-            <div className='w-1/2'>
+         <div className='SubpageThree flex flex-row w-full bg-gray-100'>
+            <div className='ServiceTwoImg w-1/2'>
             <img className='h-full w-full object-cover' src={imgOne} alt="Nasa Img" />
         </div>
-        <div className='w-1/2 flex flex-col justify-around px-24 my-auto'>
+        <div className='servicetwoBoxOne w-1/2 flex flex-col justify-around px-24 my-auto'>
             <div className='serviceHead py-8'>
                 Service 2
             </div>
@@ -18,6 +18,9 @@ function SubPageThree() {
             <div className='viewMore py-4'>
                 View More &rarr;
             </div>
+        </div>
+        <div className='ServiceTwoImgRes ServiceOneImg w-1/2'>
+            <img className='h-full w-full object-cover' src={imgOne} alt="Nasa Img" />
         </div>
         
     </div>
