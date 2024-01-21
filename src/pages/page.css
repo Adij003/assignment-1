@@ -66,6 +66,7 @@
     }
     .NewSubHead{
         display: block;
+        width: 90%;
     }
     .ReadMore{
         display: none;
@@ -105,6 +106,17 @@
         font-size: 2.5rem;
         text-shadow: none;
         padding-top: 1.5rem;
+    }
+    .FullHeadingMainPage{
+        padding: 0 0 0 1.2rem;
+    }
+    .FlexBoxTwo{
+        margin-top: 2rem;
+        padding-right: 1.5rem;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
     }
 
    }

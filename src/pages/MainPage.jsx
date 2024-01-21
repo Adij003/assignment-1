@@ -17,7 +17,7 @@ function MainPage() {
       <NavRes/>
 
       <div className="wholeBox flex flex-row pt-10  justify-between flex-wrap">
-        <div className="items-center p-32 FlexBoxOne">
+        <div className="FullHeadingMainPage items-center p-32 FlexBoxOne">
           <div className="NewHeading text-white text-4xl whitespace-pre-line">
             Heading with multiple
           </div>
