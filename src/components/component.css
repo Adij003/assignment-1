@@ -37,6 +37,35 @@
 .BlogHeadOne{
     font-family: "Crimson Text", serif;
 }
+.BlogHeadTwoRes{
+    display: none;
+}
+.BlogCardHeading{
+    font-family: "Outfit", serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.BlogCardDescription{
+    font-family: "Outfit", serif;
+    font-size: 0.8rem;
+}
+.BlogCardImg{
+    overflow: hidden;
+}
+.ZoomImage {
+    transition: transform 0.6s ease; /* Add a smooth transition effect */
+  }
+  
+  .BlogSingleCardMain:hover .ZoomImage {
+    transform: scale(1.1); 
+    
+  }
+  .BlogSingleCardMain:hover .CardReadMoreButton {
+    color: white;
+    background: blue;
+    transition: color 0.6s ease, background 0.3s ease;
+    
+  }
 
 @media only screen and (max-width: 600px) {
    .NavbarOne{
@@ -64,11 +93,26 @@
     /* margin: 0; */
    }
    .BlogHeadOne{
-    margin-left: -5rem;
+    margin-top: 2rem;
+    margin-left: -4rem;
    }
    .BlogHead{
     margin: 0;
+    font-size: 2rem;
    }
+   .BlogHeadTwo{
+    display: none;
+   }
+   .BlogHeadTwoRes{
+    display: flex;
+    position: relative;
+    top: 0.5rem;
+    
+   }
+   .BlogSingleCardMain{
+    margin: 0 1rem 1rem 1rem;
+   }
+  
  
    
   

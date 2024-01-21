@@ -5,6 +5,8 @@ import BlogMainHeading from '../components/BlogMainHeading'
 import BlogSubPageTwo from '../subPages/BlogSubPageTwo'
 import NavRes from '../components/NavRes'
 import NavbarResBlog from '../components/NavbarResBlog'
+import BlogCards from '../subPages/BlogCards'
+import Footer from '../subPages/Footer'
 
 function Blog() {
   return (
@@ -15,8 +17,10 @@ function Blog() {
        <NavbarTwo/>
         </div>
        <BlogMainHeading/>
-       {/* <BlogSubPageTwo/> */}
-       
+       <BlogSubPageTwo/>
+       <BlogCards/>
+       <BlogCards/>
+       <Footer/>
     </div>
   )
 }

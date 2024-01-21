@@ -96,6 +96,12 @@
   .FooterNewsLetterRes{
     display: none;
   }
+  .blogSubPageTwoMainRes{
+    display: none;
+  }
+  .FooterLinksRes{
+    display: none;
+  }
 
 @media only screen and (max-width: 600px) {
     .subPageOne{
@@ -297,6 +303,13 @@
     margin-top: 1rem;
    }
   .FooterLinks{
+    display: none;
+    width: 100%;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+  .FooterLinksRes{
+    display: flex;
     width: 100%;
     margin: 0;
     flex-wrap: wrap;
@@ -312,6 +325,24 @@
   .TermsOfService{
     width: 100%;
     margin: 2rem 0 1rem 0;
+  }
+  .blogSubPageTwoMain{
+    display: none;
+  }
+  .blogSubPageTwoMainRes{
+    display: flex;
+  }
+  .SubscribeMajorHead{
+    
+    font-family: "Crimson Text", serif;
+  }
+  .AllTheBlogCards{
+    flex-wrap: wrap;
+    margin: 0 0 0 0;
+  }
+  .BorderLineLast{
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
    
    }

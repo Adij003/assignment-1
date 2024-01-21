@@ -2,6 +2,7 @@ import React from 'react'
 import BlogImg from '../assets/giammarco.png'
 import Ribbon from '../assets/Component.png'
 import SocialLinks from '../assets/FrameSocial.png'
+import ResponsiveLibImage from '../assets/BlogResponsive.png'
 
 
 function BlogMainHeading() {
@@ -25,11 +26,14 @@ function BlogMainHeading() {
         
         </div>
         
-        {/* <img className="Ribbon size-[34rem] " src={Ribbon} alt="" /> */}
+        <img className="Ribbon size-[34rem] " src={Ribbon} alt="" />
         
-        {/* <div className="BlogHeadTwo">
+        <div className="BlogHeadTwo">
             <img src={BlogImg} alt="BlogImg" />
-        </div> */}
+        </div>
+        <div className="BlogHeadTwoRes">
+            <img src={ResponsiveLibImage} alt="BlogImg" />
+        </div>
     </div>
   )
 }
