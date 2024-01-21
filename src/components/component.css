@@ -27,7 +27,8 @@
 }
 .Ribbon{
     position: relative;
-    left: 25rem;
+    left: 24rem;
+    top: 0.2rem;
 }
 .Polygon{
     position: relative;

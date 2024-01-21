@@ -26,7 +26,7 @@ function BlogMainHeading() {
         
         </div>
         
-        <img className="Ribbon size-[34rem] " src={Ribbon} alt="" />
+        <img className="Ribbon size-[33rem] " src={Ribbon} alt="" />
         
         <div className="BlogHeadTwo">
             <img src={BlogImg} alt="BlogImg" />

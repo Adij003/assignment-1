@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function NavbarTwo() {
   return (
@@ -10,7 +11,10 @@ function NavbarTwo() {
   <div class=" flex  NewTextNavOne">
     <div className='px-10'>About</div>
     <div className='px-10'>Services</div>
+    <Link to='/blog' >
     <div className='px-10'>Blogs</div>
+    </Link>
+
     <div className='px-10'>Careers</div>
     <div className='px-10'>Industries</div>
   </div>
