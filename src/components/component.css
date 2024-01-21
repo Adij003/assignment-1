@@ -27,12 +27,15 @@
 }
 .Ribbon{
     position: relative;
-    left: 20rem;
+    left: 25rem;
 }
 .Polygon{
     position: relative;
     top: 5rem;
     left: 40rem;
+}
+.BlogHeadOne{
+    font-family: "Crimson Text", serif;
 }
 
 @media only screen and (max-width: 600px) {
@@ -49,6 +52,25 @@
    .MainCard{
     width: 22rem;
    }
+   .BlogMainHeading{
+    flex-direction: column;
+    
+   }
+   .Ribbon{
+    display: none;
+   }
+   .BlogHeadingText{
+    width: 100%;
+    /* margin: 0; */
+   }
+   .BlogHeadOne{
+    margin-left: -5rem;
+   }
+   .BlogHead{
+    margin: 0;
+   }
+ 
+   
   
 
   }
